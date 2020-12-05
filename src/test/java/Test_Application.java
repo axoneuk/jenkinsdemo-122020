@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 public class Test_Application {
@@ -21,11 +22,14 @@ public class Test_Application {
     @Test
     public void test4(){
         System.out.println("Running test 4");
+        Assert.fail();
     }
 
     @Test
     public void test5(){
+
         System.out.println("Running test 5");
+        Assert.fail();
     }
 
 }

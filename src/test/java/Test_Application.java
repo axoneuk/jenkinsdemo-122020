@@ -32,4 +32,11 @@ public class Test_Application {
 
     }
 
+    @Test
+    public void test6(){
+
+        System.out.println("Running test 6");
+
+    }
+
 }

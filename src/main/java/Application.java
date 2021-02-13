@@ -6,4 +6,10 @@ public class Application {
 
     }
 
+    public void doSomethingElse(){
+
+        System.out.println("doing something111");
+
+    }
+
 }
